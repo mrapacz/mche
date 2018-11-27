@@ -20,4 +20,4 @@ def fibo_hard(n):
 
 if __name__ == "__main__":
     fibo = fibo_hard
-    print(fibo(int(sys.argv[1])))
+    print(fibo(int(input("Which Fibonacci number to count?\n"))))
